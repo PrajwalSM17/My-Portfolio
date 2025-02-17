@@ -38,10 +38,10 @@ export const Newsletter = ({ status, message, onValidated }) => {
     onValidated({ EMAIL: email });
   };
 
-  const clearFields = () => {
-    setEmail("");
-    setError("");
-  };
+  // const clearFields = () => {
+  //   setEmail("");
+  //   setError("");
+  // };
 
   return (
     <Col lg={12}>
