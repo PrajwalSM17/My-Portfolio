@@ -11,6 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
+  console.log(index);
   const toRotate = [
     "Software Engineer",
     "Web Developer",
@@ -26,7 +27,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, [delta, text]);
+  }, [delta,text]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
