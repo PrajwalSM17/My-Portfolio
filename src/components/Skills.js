@@ -3,8 +3,6 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -38,19 +36,19 @@ export const Skills = () => {
                         <p>Versatile front-end developer with expertise in Vue.js, React.js, and modern UI frameworks like Tailwind, PrimeVue, and Kendo UI. Proficient in backend technologies such as Node.js, AWS Lambda, and Step Functions, ensuring scalable and high-performance applications.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="ImageFrontend" />
                                 <h5>Frontend Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="ImageBackend" />
                                 <h5>Backend Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="ImageAws" />
                                 <h5>AWS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="ImageLogo" />
                                 <h5>Logo Design</h5>
                             </div>
                         </Carousel>
