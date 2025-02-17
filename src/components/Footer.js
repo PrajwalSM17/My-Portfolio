@@ -12,18 +12,18 @@ export const Footer = () => {
         <Row className="align-items-center">
           <MailchimpForm />
           <Col size={12} sm={6}>
-            <img src={PrajwalLogo}  className="logo-style" alt="Logo" />
+            <img src={PrajwalLogo}  className="logo-style" alt="ProfileLogo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/sm-prajwal/">
-                <img src={navIcon1} alt="Icon" />
+                <img src={navIcon1} alt="IconNavbarOne" />
               </a>
               <a href="https://www.facebook.com/prajwals.mahesh.3/">
-                <img src={navIcon2} alt="Icon" />
+                <img src={navIcon2} alt="IconNavbarTwo" />
               </a>
               <a href="https://www.instagram.com/prajwal_sm17/">
-                <img src={navIcon3} alt="Icon" />
+                <img src={navIcon3} alt="IconNavbarThree" />
               </a>
             </div>
             <p>Copyright 2025. All Rights Reserved</p>

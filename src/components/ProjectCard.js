@@ -13,7 +13,7 @@ export const ProjectCard = ({ title, description, imgUrl, details }) => {
           style={{cursor:"pointer"}}
           title="Click to view Details"
         >
-          <img src={imgUrl} className="img-fluid mx-auto d-block" alt="project"/>
+          <img src={imgUrl} className="img-fluid mx-auto d-block" alt="mainproject"/>
           <div className="proj-txtx">
             <h4>{title}</h4>
             <span>{description}</span>
